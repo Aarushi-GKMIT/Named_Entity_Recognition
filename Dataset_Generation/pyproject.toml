@@ -1,0 +1,17 @@
+[project]
+name = "ner"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "docling>=2.71.0",
+    "docling-core>=2.62.0",
+    "dotenv>=0.9.9",
+    "openai>=2.16.0",
+    "pydantic>=2.12.5",
+    "torch==2.2.2",
+    "numpy<2",
+    "nltk>=3.9.2",
+    "matplotlib>=3.10.8",
+]

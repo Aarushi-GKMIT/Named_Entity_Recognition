@@ -1,0 +1,30 @@
+# Environment files
+.env
+.venv/
+venv/
+
+# Python cache / bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data directories (all projects)
+data/
+datasets/
+resumes/
+
+# ML artifacts / outputs
+artifacts/
+checkpoints/
+bert-ner/
+*.pt
+*.bin
+
+# Project-specific ignored files
+src/artifacts/token2id.json
+
+# OS / editor files
+.DS_Store
+.vscode/
+.idea/
