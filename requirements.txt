@@ -1,0 +1,9 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.2.2
+fastapi
+uvicorn
+numpy<2
+transformers
+docling
+nltk>=3.9.2
+python-multipart
